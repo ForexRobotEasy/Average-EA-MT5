@@ -1,0 +1,100 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                Average EA MT5.mq5 |
+//|                             Copyright 2021, Forex Robot Easy Team |
+//|                                       https://www.forexroboteasy.com |
+//+------------------------------------------------------------------+
+#property copyright 'Copyright 2021, Forex Robot Easy Team'
+#property link      'https://www.forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Add initialization code here
+
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Add deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Add tick processing code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   // Add start logic here
+}
+
+//+------------------------------------------------------------------+
+//| Custom functions                                                 |
+//+------------------------------------------------------------------+
+double CalculateRSI()
+{
+   // Add RSI calculation logic here
+}
+
+double CalculateStochasticOscillator()
+{
+   // Add Stochastic Oscillator calculation logic here
+}
+
+double CalculateWilliamsPercentRange()
+{
+   // Add Williams Percent Range calculation logic here
+}
+
+double CalculateDeMarkerOscillator()
+{
+   // Add DeMarker Oscillator calculation logic here
+}
+
+void AnalyzeOscillators()
+{
+   // Add oscillator analysis logic here
+}
+
+void GenerateSignals()
+{
+   // Add signal generation logic here
+}
+
+void PlaceMarketOrders()
+{
+   // Add market order placement logic here
+}
+
+void SetStopLossAndTakeProfit()
+{
+   // Add stop-loss and take-profit setting logic here
+}
+
+void MonitorOpenTrades()
+{
+   // Add open trade monitoring logic here
+}
+
+void AdjustStopLossAndTakeProfit()
+{
+   // Add stop-loss and take-profit adjustment logic here
+}
+
+void CloseTrades()
+{
+   // Add trade closing logic here
+}
